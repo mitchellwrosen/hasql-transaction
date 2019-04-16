@@ -3,7 +3,7 @@
 module Hasql.Transaction
 (
   -- * Transaction monad
-  Transaction,
+  Transaction(..),
   condemn,
   sql,
   statement,
